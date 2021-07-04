@@ -9,6 +9,8 @@ class Config(object):
     BUTTONURL1 = os.environ.get("BUTTONURL1", "")
     BUTTON2 = os.environ.get("BUTTON2", "")
     BUTTONURL2 = os.environ.get("BUTTONURL2", "")
+    BUTTON3 = os.environ.get("BUTTON3", "")
+    BUTTONURL3 = os.environ.get("BUTTONURL3", "")
     START_MSG = os.environ.get("START_MSG", "")
     START_IMG = os.environ.get("START_IMG", "")
     OWNERID = set(int(x) for x in os.environ.get("OWNERID", "")
