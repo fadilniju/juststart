@@ -1,7 +1,9 @@
 ### Deploy
 
 ###### Simple Way
-https://heroku.com/deploy?template=https://github.com/shamilhabeebnelli/juststart
+Press the below button to Fast deploy on Heroku
+
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://heroku.com/deploy?template=https://github.com/shamilhabeebnelli/juststart)
 
 #### Mandatory VARS
 ```
