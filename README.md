@@ -4,7 +4,7 @@
 https://heroku.com/deploy?template=https://github.com/shamilhabeebnelli/juststart
 
 #### Mandatory VARS
-`
+```
     BOT_TOKEN = BOT_TOKEN from @botfather
     APP_ID = from telegram ORG scrapper
     API_HASH = from telegram ORG scrapper
@@ -17,7 +17,7 @@ https://heroku.com/deploy?template=https://github.com/shamilhabeebnelli/juststar
     START_MSG = start message
     START_IMG = start image as telegraph
     OWNERID = Owner ID integer
-`
+````
 
 #### Host on VPS
 `
