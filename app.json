@@ -1,0 +1,85 @@
+{
+  "name": "TG Mainatainace Bot",
+  "description": "This Just A Simple Bot Repo For Showing If Youtlr Bot Is Offline Create your Fork now.",
+  "keywords": [
+    "telegram",
+    "best",
+    "open",
+    "source",
+    "maintainance"
+  ],
+  "success_url": "/",
+  "website": "https://github.com/shamilhabeebnelli",
+  "repository": "https://github.com/shamilhabeebnelli/juststart",
+  "env": {
+    "WEBHOOK": {
+      "description": "Setting this to ANYTHING will enable webhooks when in env mode",
+      "value": "ANYTHING"
+    },
+    "BOT_TOKEN": {
+      "description": "Your bot token, as a string take it from @botfather.",
+      "value": "",
+      "required": true
+    },
+    "APP_ID": {
+      "description": "Get this value from https://my.telegram.org",
+      "value": "",
+      "required": true
+    },
+    "API_HASH": {
+      "description": "Get this value from https://my.telegram.org",
+      "value": "",
+      "required": true
+    },
+    "OWNERID": {
+      "description": "Owner Id",
+      "value": "",
+      "required": true
+    },
+    "START_MSG": {
+      "description": "Text to be displayed On start Command",
+      "value": "",
+      "required": true
+    },
+    "BUTTON1": {
+      "description": "First Button Name",
+      "value": "",
+      "required": true
+    },
+    "BUTTONURL1": {
+      "description": "First Button Url",
+      "value": "",
+      "required": true
+    },
+    "BUTTON2": {
+      "description": "Second Button Name",
+      "value": "",
+      "required": true
+    },
+    "BUTTONURL2": {
+      "description": "Second Button Url",
+      "value": "",
+      "required": true
+    },
+    "BUTTON3": {
+      "description": "Third Button",
+      "value": "",
+      "required": true
+    },
+    "BUTTONURL3": {
+      "description": "Third Button Url",
+      "value": "",
+      "required": true
+    }
+  },
+  "addons": [
+  ],
+  "buildpacks": [{
+    "url": "heroku/python"
+  }],
+  "formation": {
+    "worker": {
+      "quantity": 1,
+      "size": "free"
+    }
+  }
