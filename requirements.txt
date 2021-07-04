@@ -1,1 +1,4 @@
 pyrogram==1.0.7
+requests
+tgcrypto
+psycopg2-binary
