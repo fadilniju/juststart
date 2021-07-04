@@ -41,6 +41,11 @@
       "value": "",
       "required": true
     },
+    "START_IMG": {
+      "description": "Start message as telegraph link",
+      "value": "",
+      "required": true
+    },
     "BUTTON1": {
       "description": "First Button Name",
       "value": "",
