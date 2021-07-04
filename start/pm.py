@@ -10,9 +10,9 @@ logging.getLogger("pyrogram").setLevel(logging.WARNING)
 
 @Client.on_message(filters.private & filters.command(['start']), group=0)
 async def start(bot, update):
-    await bot.send_message(
+    await bot.send_photo(photo=Config.START_IMG,
         chat_id=update.chat.id,
-        text=Config.START_MSG,
+        caption=Config.START_MSG,
         parse_mode="html",
         disable_web_page_preview=True,
         reply_markup=InlineKeyboardMarkup(
