@@ -29,4 +29,10 @@ virtualenv -p /usr/bin/python3 venv
 . ./venv/bin/activate
 pip install -r requirements.txt
 python3 -m start
-````
+```
+
+##### © Credits
+- [Heiman Creation](https://github.com/HeimanPictures/)
+- [Me Too](https://github.com/shamilhabeebnelli/)
+- [Connect me on TG](https://t.me/shamilnelli/)
+
