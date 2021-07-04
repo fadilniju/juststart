@@ -6,7 +6,7 @@ logger = logging.getLogger(__name__)
 import os
 
 if bool(os.environ.get("WEBHOOK", False)):
-    from mwk_config import Config
+    from mwk_Config import Config
 else:
     from config import Config
 
